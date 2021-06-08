@@ -1,0 +1,48 @@
+.qualification-stages-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-filter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6px;
+}
+
+.primary-filter > .primary-filter-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 16px;
+    text-align: center;
+}
+
+.filter-btn {
+    width: 150px;
+    margin-top: 15px;
+    background-color: var(--system-bg);
+}
+
+.filter-footer {
+    margin-top: 10px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .qualification-stages-wrapper {
+        flex-direction: column;
+    }
+}
